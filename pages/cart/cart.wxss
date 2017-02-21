@@ -1,0 +1,151 @@
+.cartBox {
+  width: 100%;
+  height: 100%; }
+  .cartBox .cartMain {
+    width: 100%; }
+    .cartBox .cartMain .cartMainInfo {
+      width: 100%; }
+      .cartBox .cartMain .cartMainInfo .cartList {
+        width: 100%; }
+        .cartBox .cartMain .cartMainInfo .cartList .cartItem {
+          width: 100%;
+          height: 100px;
+          background: #fff;
+          border-bottom: 1px solid #eee;
+          display: flex;
+          margin-top: 10px; }
+          .cartBox .cartMain .cartMainInfo .cartList .cartItem .pic {
+            width: 90px;
+            height: 90px;
+            margin-top: 5px;
+            margin-left: 10px; }
+            .cartBox .cartMain .cartMainInfo .cartList .cartItem .pic image {
+              width: 100%;
+              height: 100%; }
+          .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo {
+            width: 250px;
+            height: 90px;
+            margin-top: 5px;
+            margin-left: 10px; }
+            .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartName {
+              width: 100%;
+              height: 30px;
+              font-size: 12px;
+              color: #666666;
+              display: -webkit-box;
+              overflow: hidden;
+              white-space: normal !important;
+              text-overflow: ellipsis;
+              word-wrap: break-word;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical; }
+            .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain {
+              height: 30px;
+              display: flex;
+              margin-left: 20px; }
+              .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain span {
+                display: block;
+                text-align: center;
+                line-height: 30px; }
+                .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain span.span1 {
+                  width: 30px;
+                  height: 30px;
+                  border: 1px solid #eeeeee; }
+                .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain span.span2 {
+                  width: 60px;
+                  height: 30px;
+                  border: 1px solid #eeeeee; }
+                .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain span.span3 {
+                  width: 30px;
+                  height: 30px;
+                  border: 1px solid #eeeeee; }
+                .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .cartMain span.delete {
+                  width: 50px;
+                  height: 32px;
+                  background: #e3493d;
+                  margin-left: 30px;
+                  color: #fff;
+                  font-weight: bold; }
+            .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .price {
+              width: 100%;
+              color: #e3493d;
+              font-size: 20px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-left: 10px;
+              display: flex; }
+              .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .price span {
+                display: block; }
+                .cartBox .cartMain .cartMainInfo .cartList .cartItem .cartInfo .price span:nth-child(1) {
+                  font-size: 10px;
+                  margin-top: 5px; }
+      .cartBox .cartMain .cartMainInfo .fixed {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #e3493d;
+        display: flex; }
+        .cartBox .cartMain .cartMainInfo .fixed .left {
+          width: 70%;
+          height: 100%;
+          background: #eee;
+          display: flex;
+          line-height: 50px; }
+          .cartBox .cartMain .cartMainInfo .fixed .left span {
+            display: block; }
+            .cartBox .cartMain .cartMainInfo .fixed .left span:nth-child(1) {
+              font-size: 14px;
+              font-weight: bold;
+              color: #666;
+              margin-left: 50px; }
+            .cartBox .cartMain .cartMainInfo .fixed .left span:nth-child(2) {
+              color: #e3493d;
+              font-size: 11px;
+              font-weight: bold; }
+            .cartBox .cartMain .cartMainInfo .fixed .left span:nth-child(3) {
+              color: #e3493d;
+              font-size: 16px;
+              font-weight: bold; }
+            .cartBox .cartMain .cartMainInfo .fixed .left span:nth-child(4) {
+              margin-left: 10px;
+              font-size: 12px;
+              transform: scale(0.9);
+              color: #666; }
+        .cartBox .cartMain .cartMainInfo .fixed .right {
+          width: 30%;
+          height: 100%;
+          background: #e3493d;
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
+          text-align: center;
+          line-height: 50px; }
+    .cartBox .cartMain .kong {
+      width: 100%; }
+      .cartBox .cartMain .kong .tu {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 80px;
+        margin-top: 30px; }
+        .cartBox .cartMain .kong .tu image {
+          width: 100%;
+          height: 100%; }
+      .cartBox .cartMain .kong .kongMain {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 30px; }
+      .cartBox .cartMain .kong .goSee {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        background: #e3493d;
+        margin-top: 30px;
+        margin-left: 100px;
+        border-radius: 5px; }

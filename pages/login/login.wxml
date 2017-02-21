@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="loginBox">
+    <view class="wode">
+        <view class="img">
+            <image src="../../images/user1.png"></image>
+        </view>
+        <view class="woText">
+            <input type="text" bindinput="username" placeholder="用户名/手机号/邮箱"/>
+        </view>
+    
+    </view>
+    <view class="xiaoxi">
+            <view class="img">
+                <image src="../../images/user2.png"></image>
+        </view>
+        <view class="woText">
+            <input type="password" bindinput="password" placeholder="请输入密码"/>
+        </view>
+    </view>
+    
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn" class="btn"> 登录 </button>
+<view class="register" bindtap="toRegister">注册</view>
+</view>

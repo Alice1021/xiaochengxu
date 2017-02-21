@@ -1,0 +1,78 @@
+<!--pages/home/home.wxml-->
+<view class="homeBox">
+    <scroll-view class="proList" scroll-y="true" style="height:100%;">
+        <swiper class="homeList" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" current="{{currentIndex}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+            
+                <swiper-item>
+                    <image src="http://www.1zhe.com/static/html5/temp/banner.jpg"/>
+                   
+                </swiper-item>
+                <swiper-item>
+                     <image src="http://m.1zw.com/themes/1zw/assets/images/wap/wap-banner.jpg"/>
+                </swiper-item>
+                <swiper-item>
+                   <image src="http://i.okaybuy.cn/images/multipic/new/201612/c2/c29d382bc6a183c72b08f3b42dcc4f23.jpg"/>
+                </swiper-item>
+                 <swiper-item>
+                   <image src="http://i.okaybuy.cn/images/multipic/new/201612/db/db0e32bca62325bfaef21464f161a241.jpg" />
+                </swiper-item>
+        </swiper>
+        <ul class="kind"> 
+            <li class="kindList" bindtap="goto">
+                <view class="pic">
+                    <image src="../../images/wclothe.png"></image>
+                </view>
+                <view class="text">女装</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#4aa5fc">
+                    <image src="../../images/mclothe.png"></image>
+                </view>
+                <view class="text">男装</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#24d59c">
+                    <image src="../../images/food.png"></image>
+                </view>
+                <view class="text">美食</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#01c485">
+                    <image src="../../images/child.png"></image>
+                </view>
+                <view class="text">母婴</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#ff6c00">
+                    <image src="../../images/shose.png"></image>
+                </view>
+                <view class="text">鞋包</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#d5af27">
+                    <image src="../../images/homes.png"></image>
+                </view>
+                <view class="text">家居</view>
+            </li>
+            <li class="kindList" bindtap="goto">
+                <view class="pic" style="background:#2171a2">
+                    <image src="../../images/carema.png"></image>
+                </view>
+                <view class="text">数码</view>
+            </li>
+        </ul>
+        <view class="findList">
+            <view class="findItem" wx:for="{{proList}}" bindtap="toDetail" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}" wx:key="{{item.goodsID}}">
+                <image src="{{item.imgList}}" class="findImage" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}"></image>
+                <p class="findName" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}">{{item.name}}</p>
+                <p class="findPrice" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}">￥{{item.price}}</p>
+                <p class="findSport" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}"><span>￥</span><span>送送28集分宝</span><span>+额外红包</span></p>
+            </view>
+             
+        </view>
+    
+    </scroll-view>
+    
+
+</view>

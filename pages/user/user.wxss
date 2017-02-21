@@ -1,0 +1,270 @@
+.userBox {
+  width: 100%;
+  height: 100%; }
+  .userBox .proList {
+    width: 100%; }
+    .userBox .proList .userMain {
+      width: 100%;
+      height: 180px;
+      background: -webkit-linear-gradient(top, #ff73af, #dc1e5a);
+      display: flex; }
+      .userBox .proList .userMain .tou {
+        width: 90px;
+        height: 90px;
+        margin-left: 30px;
+        margin-top: 45px; }
+        .userBox .proList .userMain .tou .pic {
+          width: 100%;
+          height: 100%; }
+      .userBox .proList .userMain .userInfo {
+        width: 255px;
+        height: 100%; }
+        .userBox .proList .userMain .userInfo .text1 {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          margin-top: 45px;
+          margin-left: 20px;
+          text-align: center;
+          line-height: 40px; }
+          .userBox .proList .userMain .userInfo .text1 .span1 {
+            display: block;
+            width: 80px;
+            height: 30px;
+            border-right: 1px solid #fff;
+            color: #fff;
+            margin-right: 10px; }
+          .userBox .proList .userMain .userInfo .text1 .span2 {
+            display: block;
+            width: 50px;
+            height: 30px;
+            color: #fff;
+            margin-left: 20px; }
+        .userBox .proList .userMain .userInfo .textUser {
+          width: 100%;
+          height: 40px;
+          display: flex;
+          margin-top: 45px;
+          margin-left: 20px;
+          text-align: center;
+          line-height: 40px; }
+          .userBox .proList .userMain .userInfo .textUser .span1 {
+            display: block;
+            width: 80px;
+            height: 30px;
+            color: #fff;
+            margin-right: 10px; }
+          .userBox .proList .userMain .userInfo .textUser .span2 {
+            display: block;
+            height: 30px;
+            color: #fff;
+            margin-left: 10px; }
+        .userBox .proList .userMain .userInfo .text2 {
+          display: flex;
+          width: 100%;
+          height: 50px;
+          margin-left: 40px;
+          margin-top: 10px; }
+          .userBox .proList .userMain .userInfo .text2 .img1 {
+            width: 30px;
+            height: 30px;
+            display: block;
+            margin-right: 10px; }
+          .userBox .proList .userMain .userInfo .text2 .img2 {
+            width: 30px;
+            height: 30px;
+            display: block; }
+    .userBox .proList .other1 {
+      width: 100%;
+      background: #fff;
+      margin-bottom: 20px; }
+      .userBox .proList .other1 .wode {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other1 .wode .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other1 .wode .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other1 .wode .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other1 .xiaoxi {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other1 .xiaoxi .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other1 .xiaoxi .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other1 .xiaoxi .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+    .userBox .proList .other2 {
+      width: 100%;
+      background: #fff; }
+      .userBox .proList .other2 .shoucang {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other2 .shoucang .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other2 .shoucang .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other2 .shoucang .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other2 .kaiqiang {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other2 .kaiqiang .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other2 .kaiqiang .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other2 .kaiqiang .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other2 .jiangpin {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other2 .jiangpin .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other2 .jiangpin .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other2 .jiangpin .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+    .userBox .proList .other3 {
+      width: 100%;
+      background: #fff;
+      margin-top: 20px; }
+      .userBox .proList .other3 .wode {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other3 .wode .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other3 .wode .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other3 .wode .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other3 .xiaoxi {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other3 .xiaoxi .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other3 .xiaoxi .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other3 .xiaoxi .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+    .userBox .proList .other4 {
+      width: 100%;
+      background: #fff; }
+      .userBox .proList .other4 .shoucang {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other4 .shoucang .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other4 .shoucang .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other4 .shoucang .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other4 .kaiqiang {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other4 .kaiqiang .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other4 .kaiqiang .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other4 .kaiqiang .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }
+      .userBox .proList .other4 .jiangpin {
+        width: 95%;
+        height: 50px;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 2.5%;
+        display: flex; }
+        .userBox .proList .other4 .jiangpin .img {
+          width: 30px;
+          height: 30px;
+          margin-top: 10px; }
+          .userBox .proList .other4 .jiangpin .img image {
+            width: 100%;
+            height: 100%; }
+        .userBox .proList .other4 .jiangpin .woText {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666666;
+          margin-top: 20px; }

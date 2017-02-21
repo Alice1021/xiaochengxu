@@ -1,0 +1,190 @@
+.cartBox{
+    width:100%;
+    height:100%;
+    .cartMain{
+        width:100%;
+        .cartMainInfo{
+            width:100%;
+            .cartList{
+                width:100%;
+                .cartItem{
+                    width:100%;
+                    height:100px;
+                    background:#fff;
+                    border-bottom:1px solid #eee;
+                    display:flex;
+                    margin-top:10px;
+                    .pic{
+                        width:90px;
+                        height:90px;
+                        margin-top:5px;
+                        margin-left:10px;
+                        image{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .cartInfo{
+                        width:250px;
+                        height:90px;
+                        margin-top:5px;
+                        margin-left:10px;
+                        .cartName{
+                            width:100%;
+                            height:30px;
+                            font-size:12px;
+                            color:#666666;
+                            display: -webkit-box;
+                            overflow: hidden;
+                            white-space: normal !important;
+                            text-overflow: ellipsis;
+                            word-wrap: break-word;
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                        }
+                        .cartMain{
+                            
+                            height:30px;
+                           
+                            display:flex;
+                            margin-left:20px;
+                            span{
+                                display:block;
+                                text-align: center;
+                                line-height: 30px;
+                                &.span1{
+                                    width:30px;
+                                    height:30px;
+                                     border:1px solid #eeeeee;
+    //                              background:#eeeeee;
+                                }
+                                &.span2{
+                                    width:60px;
+                                    height:30px;
+                                    border:1px solid #eeeeee;
+                                }
+                                &.span3{
+                                    width:30px;
+                                    height:30px;
+    //                              background:#eeeeee;
+                                    border:1px solid #eeeeee;
+                                }
+                                &.delete{
+                                    width:50px;
+                                    height:32px;
+                                    background:#e3493d;
+                                    margin-left:30px;
+                                    color:#fff;
+                                    font-weight: bold;
+                                }
+                            }
+                            
+                        }
+                        .price{
+                            width:100%;
+                            color:#e3493d;
+                            font-size:20px;
+                            font-weight: bold;
+                            margin-top:10px;
+                            margin-left:10px;
+                            display:flex;
+                            span{
+                                display:block;
+                                &:nth-child(1){
+                                    font-size:10px;
+                                    margin-top:5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .fixed{
+                width:100%;
+                height:50px;
+                position:fixed;
+                left:0;
+                bottom:0;
+                background:#e3493d;
+                display:flex;
+                .left{
+                    width:70%;
+                    height:100%;
+                    background:#eee;
+                    display:flex;
+                    line-height: 50px;
+                    span{
+                        display: block;
+                        &:nth-child(1){
+                            font-size:14px;
+                            font-weight: bold;
+                            color:#666;
+                             margin-left:50px;
+                        }
+                        &:nth-child(2){
+                            color:#e3493d;
+                            font-size:11px;
+                            font-weight: bold;
+                        }
+                        &:nth-child(3){
+                             color:#e3493d;
+                            font-size:16px;
+                            font-weight: bold;
+                        }
+                        &:nth-child(4){
+                            margin-left:10px;
+                            font-size:12px;
+                            transform: scale(0.9);
+                            color:#666;
+                           
+                        }
+                    }
+                }
+                .right{
+                    width:30%;
+                    height:100%;
+                    background:#e3493d;
+                    font-size:14px;
+                     font-weight: bold;
+                    color:#fff;
+                    text-align: center;
+                    line-height: 50px;
+                }
+            }
+        }
+        .kong{
+            width:100%;
+            .tu{
+                width:200px;
+                height:200px;
+                border-radius: 50%;
+                margin-left:80px;
+                margin-top:30px;
+                image{
+                    width:100%;
+                    height:100%;
+                    
+                }
+            }
+            .kongMain{
+                font-size: 12px;
+                text-align: center;
+                margin-top:30px;
+            }
+            .goSee{
+                width:150px;
+                height:50px;
+                font-size:16px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 50px;
+                color:#fff;
+                background:#e3493d;
+                margin-top:30px;
+                margin-left:100px;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}

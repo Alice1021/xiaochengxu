@@ -1,0 +1,67 @@
+.title {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e3493d;
+  background: #fff;
+  text-align: center;
+  line-height: 40px; }
+
+.findList {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  background: #eceaeb; }
+  .findList .findItem {
+    width: 47%;
+    height: 225px;
+    margin-top: 7px;
+    margin-left: 7px;
+    background: #fff; }
+    .findList .findItem .findImage {
+      display: inline-block;
+      width: 100%;
+      height: 160px; }
+    .findList .findItem p {
+      display: block;
+      color: #666666;
+      font-size: 12px;
+      margin-left: 5px;
+      margin-top: 3px; }
+      .findList .findItem p.findName {
+        display: -webkit-box;
+        overflow: hidden;
+        white-space: normal !important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical; }
+      .findList .findItem p.findPrice {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 20px;
+        border-bottom: 1px solid #aaaaaa;
+        color: #ff6c00;
+        font-weight: bold; }
+      .findList .findItem p.findSport {
+        display: flex; }
+        .findList .findItem p.findSport span {
+          display: block; }
+          .findList .findItem p.findSport span:nth-child(1) {
+            width: 10px;
+            height: 100%;
+            background: #ff6c00;
+            color: #fff;
+            font-size: 10px; }
+          .findList .findItem p.findSport span:nth-child(2) {
+            width: 65px;
+            height: 100%;
+            background: #ff6c00;
+            margin-left: 5px;
+            color: #fff;
+            font-size: 10px; }
+          .findList .findItem p.findSport span:nth-child(3) {
+            color: #ff6c00;
+            font-size: 10px;
+            margin-left: 5px; }

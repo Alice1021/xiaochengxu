@@ -1,0 +1,133 @@
+<!--pages/cheap/cheap.wxml-->
+<view class="cheapBox">
+	<ul class="tabList">
+		<li class="{{currentIndex==0?'active':''}}" bindtap="changeIndex" data-index="0">女装</li>
+		<li class="{{currentIndex==1?'active':''}}" bindtap="changeIndex" data-index="1">男装</li>
+		<li class="{{currentIndex==2?'active':''}}" bindtap="changeIndex" data-index="2">女鞋</li>
+		<li class="{{currentIndex==3?'active':''}}" bindtap="changeIndex" data-index="3">美食</li>
+		<li class="{{currentIndex==4?'active':''}}" bindtap="changeIndex" data-index="4">美妆</li>
+		<li class="{{currentIndex==5?'active':''}}" bindtap="changeIndex" data-index="5">数码</li>
+
+	</ul>
+	<swiper class="cheapList" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current="{{currentIndex}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}" bindchange="changeItem">
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+
+				<view class="cheapItem" wx:for="{{proList1}}" data-itemID="0" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itemaID}}" data-itemaID="{{item.itemaID}}">
+					<view class="cheapItInfo" data-itemID="0"  data-itemaID="{{item.itemaID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="0" data-itemaID="{{item.itemaID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="0" data-itemaID="{{item.itemaID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+
+			</scroll-view>
+		</swiper-item>
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+				<view class="cheapItem" wx:for="{{proList2}}" data-itemID="1" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itembID}}" data-itembID="{{item.itembID}}">
+					<view class="cheapItInfo" data-itemID="1" data-itembID="{{item.itembID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="1"  data-itembID="{{item.itembID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="1"  data-itembID="{{item.itembID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+
+			</scroll-view>
+		</swiper-item>
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+				<view class="cheapItem" wx:for="{{proList3}}" data-itemID="2" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itemcID}}" data-itemcID="{{item.itemcID}}">
+					<view class="cheapItInfo" data-itemID="2"  data-itemcID="{{item.itemcID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="2" data-itemcID="{{item.itemcID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="2" data-itemcID="{{item.itemcID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+
+			</scroll-view>
+		</swiper-item>
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+				<view class="cheapItem" wx:for="{{proList4}}" data-itemID="3" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itemdID}}" data-itemdID="{{item.itemdID}}">
+					<view class="cheapItInfo" data-itemID="3" data-itemdID="{{item.itemdID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="3" data-itemdID="{{item.itemdID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="3" data-itemdID="{{item.itemdID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+			</scroll-view>
+		</swiper-item>
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+				<view class="cheapItem" wx:for="{{proList5}}" data-itemID="4" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itemeID}}" data-itemeID="{{item.itemeID}}">
+					<view class="cheapItInfo" data-itemID="4" data-itemeID="{{item.itemeID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="4" data-itemeID="{{item.itemeID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="4" data-itemeID="{{item.itemeID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+			</scroll-view>
+		</swiper-item>
+		<swiper-item>
+			<scroll-view class="proList" scroll-y="true" style="height:100%;">
+				<view class="cheapItem" wx:for="{{proList6}}" data-itemID="5" data-goodsName="{{item.name}}" bindtap="toDetail" wx:key="{{item.itemfID}}" data-itemfID="{{item.itemfID}}">
+					<view class="cheapItInfo" data-itemID="5" data-itemfID="{{item.itemfID}}" data-goodsName="{{item.name}}">
+						<image src="{{item.imgList}}" class="cheapImg"></image>
+						<view class="cheapText" data-itemID="5" data-itemfID="{{item.itemfID}}" data-goodsName="{{item.name}}">
+							<p class="cheapName">{{item.name}}</p>
+							<p class="cheapcart">领优惠券</p>
+							<p class="cheapPrice"><span>￥</span><span>{{item.price}}</span><span>(券后价)</span></p>
+							<p class="cheapQuan"><span>送送627集分宝</span><span>+额外奖励</span></p>
+						</view>
+
+					</view>
+					<view class="cheapProduct" data-itemID="5" data-itemfID="{{item.itemfID}}" data-goodsName="{{item.name}}">
+						北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款北极绒 儿童轻薄款
+					</view>
+				</view>
+			</scroll-view>
+		</swiper-item>
+	</swiper>
+
+</view>

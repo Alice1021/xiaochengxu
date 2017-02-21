@@ -1,0 +1,4 @@
+1 将项目放到开发者工具里 加入此项目
+2 cnpm install (生成node_model文件)
+3 http-server （启动本地服务）
+4 gulp (进行监听修改项目)

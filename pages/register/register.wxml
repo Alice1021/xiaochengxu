@@ -1,0 +1,32 @@
+<!--pages/register/register.wxml-->
+<view class="registerBox">
+    <view class="wode">
+        <view class="img">
+            <image src="../../images/user1.png"></image>
+        </view>
+        <view class="woText">
+            <input  bindinput="username" placeholder="用户名/手机号/邮箱"/>
+        </view>
+    
+    </view>
+    <view class="xiaoxi">
+            <view class="img">
+                <image src="../../images/user2.png"></image>
+        </view>
+        <view class="woText">
+            <input type="password" bindinput="password1" placeholder="请输入密码"/>
+        </view>
+    </view>
+    <view class="xiaoxi">
+            <view class="img">
+                <image src="../../images/user2.png"></image>
+        </view>
+        <view class="woText">
+            <input type="password" bindinput="password2" placeholder="请重新输入密码"/>
+        </view>
+    </view>
+    
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn" class="btn"> 注册 </button>
+<view class="login" bindtap="toLogin">登录</view>
+</view>

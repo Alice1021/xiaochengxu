@@ -1,0 +1,11 @@
+<!--pages/nine/nine.wxml-->
+<view class="title">9.9包邮（快来抢购了）</view>
+<view class="findList">
+    <view class="findItem" wx:for="{{proList}}" bindtap="toDetail" data-nineID="{{item.nineID}}" data-goodsName="{{item.name}}" wx:key="{{item.nineID}}">
+        <image src="{{item.imgList}}" class="findImage" data-nineID="{{item.nineID}}" data-goodsName="{{item.name}}"></image>
+        <p class="findName" data-nineID="{{item.nineID}}" data-goodsName="{{item.name}}">{{item.name}}</p>
+        <p class="findPrice" data-nineID="{{item.nineID}}" data-goodsName="{{item.name}}">￥{{item.price}}</p>
+        <p class="findSport" data-nineID="{{item.nineID}}" data-goodsName="{{item.name}}"><span>￥</span><span>送送28集分宝</span><span>+额外红包</span></p>
+    </view>
+             
+</view>

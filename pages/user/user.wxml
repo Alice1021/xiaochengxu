@@ -1,0 +1,98 @@
+<!--pages/user/user.wxml-->
+<view class="userBox">
+    <scroll-view class="proList" scroll-y="true" style="height:100%;">
+       <view class="userMain">
+          <view class="tou">
+            <image src="../../images/tou.png" class="pic"></image>
+          </view>  
+          <view class="userInfo">
+              <view class="text1" wx:if="{{!textUser}}">
+                  <span class="span1" bindtap="toLogin">登录</span> 
+                  <span class="span2" bindtap="toRegister">注册</span>
+              </view> 
+
+              <view class="textUser" wx:else="{{textUser}}">
+                 <span class="span1">用户名：</span> 
+                  <span class="span2">{{userID}}</span>
+              </view>
+
+              <view class="text2">
+                <image src="../../images/xin.png" class="img1"></image>
+                 <image src="../../images/she.png" class="img2"></image>
+              </view>   
+          </view>
+       </view>
+       <view class="other1">
+            <view class="wode">
+                <view class="img">
+                    <image src="../../images/user1.png"></image>
+                </view>
+                <view class="woText">我的资料</view>
+            
+            </view>
+            <view class="xiaoxi">
+                 <view class="img">
+                     <image src="../../images/user2.png"></image>
+                </view>
+                <view class="woText">我的消息</view>
+            </view>
+       </view> 
+       <view class="other2">
+            <view class="shoucang">
+                 <view class="img">
+                     <image src="../../images/user3.png"></image>
+                </view>
+                <view class="woText">我的收藏</view>
+            </view>
+            <view class="kaiqiang">
+                 <view class="img">
+                     <image src="../../images/user4.png"></image>
+                </view>
+                <view class="woText">开抢提醒</view>
+            </view>
+            <view class="jiangpin">
+                 <view class="img">
+                     <image src="../../images/user5.png"></image>
+                </view>
+                <view class="woText">奖品中心</view>
+            </view>    
+       </view> 
+        <view class="other3">
+            <view class="wode">
+                <view class="img">
+                    <image src="../../images/user6.png"></image>
+                </view>
+                <view class="woText">我的资料</view>
+            
+            </view>
+            <view class="xiaoxi">
+                 <view class="img">
+                     <image src="../../images/user7.png"></image>
+                </view>
+                <view class="woText">我的消息</view>
+            </view>
+       </view>    
+       <view class="other4">
+            <view class="shoucang">
+                 <view class="img">
+                     <image src="../../images/user8.png"></image>
+                </view>
+                <view class="woText">我的收藏</view>
+            </view>
+            <view class="kaiqiang">
+                 <view class="img">
+                     <image src="../../images/user9.png"></image>
+                </view>
+                <view class="woText">开抢提醒</view>
+            </view>
+            <view class="jiangpin">
+                 <view class="img">
+                     <image src="../../images/user1.png"></image>
+                </view>
+                <view class="woText">奖品中心</view>
+            </view>    
+       </view>      
+       
+       
+    </scroll-view>
+</view>

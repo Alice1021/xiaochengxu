@@ -1,0 +1,42 @@
+<!--pages/detail/detail.wxml-->
+<view class="detailBox">
+    <scroll-view scroll-y="true" style="height:100%;" class="detailMain">
+        <view class="detailInfo">
+            <image src="{{imgList}}" class="detailImg"></image>
+            <p class="detailName">{{name}}</p>
+            <p class="detailPrice">￥{{price}}</p>
+            <p class="detailPlace"><span>快递0.00元</span><span>浙江宁波</span></p>
+        </view>
+
+        <view class="guss">
+            猜你喜欢
+        </view>
+
+        <view class="findList">
+            <view class="findItem" wx:for="{{proList}}" bindtap="toDetail" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}" wx:key="{{item.goodsID}}">
+                <image src="{{item.imgList}}" class="findImage" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}"></image>
+                <p class="findName" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}">{{item.name}}</p>
+                <p class="findPrice" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}">￥{{item.price}}</p>
+                <p class="findSport" data-goodsID="{{item.goodsID}}" data-goodsName="{{item.name}}"><span>￥</span><span>送送28集分宝</span><span>+额外红包</span></p>
+            </view>
+             
+        </view>
+        
+    </scroll-view>
+    <view class="fixed">
+        <view class="ke">
+            <image src="../../images/ke.png" class="text1"></image>
+            <text class="text2">客服</text>
+        </view>
+        <view class="jin"> 
+            <image src="../../images/jin.png" class="text1"></image>
+            <text class="text2">进店</text>
+        </view>
+        <view class="shou">
+            <image src="../../images/shou.png" class="text1"></image>
+            <text class="text2">收藏</text>
+        </view>
+        <view class="addin" bindtap="addCart">加入购物车</view>
+        <view class="buy">立即购买</view>
+    </view>
+</view>

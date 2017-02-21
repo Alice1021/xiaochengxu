@@ -1,0 +1,107 @@
+.cheapBox {
+  width: 100%;
+  height: 100%; }
+  .cheapBox .tabList {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    padding-left: 10px;
+    line-height: 40px; }
+    .cheapBox .tabList li {
+      flex: 1;
+      font-size: 14px;
+      color: #666666; }
+      .cheapBox .tabList li.active {
+        color: #e3493d; }
+  .cheapBox .cheapList {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px; }
+    .cheapBox .cheapList .proList {
+      width: 100%; }
+      .cheapBox .cheapList .proList .cheapItem {
+        width: 100%;
+        height: 152px;
+        background: #fff;
+        margin-bottom: 5px; }
+        .cheapBox .cheapList .proList .cheapItem .cheapItInfo {
+          display: flex;
+          width: 100%;
+          height: 100px; }
+          .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapImg {
+            display: block;
+            width: 110px;
+            height: 110px; }
+          .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText {
+            width: 255px;
+            margin-left: 10px; }
+            .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p {
+              display: block;
+              font-size: 12px; }
+              .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapName {
+                height: 20px;
+                width: 100%;
+                margin-top: 5px;
+                display: -webkit-box;
+                overflow: hidden;
+                white-space: normal !important;
+                text-overflow: ellipsis;
+                word-wrap: break-word;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical; }
+              .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapcart {
+                width: 80px;
+                height: 25px;
+                background: #e3493d;
+                color: #fff;
+                text-align: center;
+                line-height: 25px; }
+              .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapPrice {
+                margin-top: 8px;
+                width: 100%;
+                height: 20px;
+                color: #e3493d;
+                display: flex;
+                line-height: 20px; }
+                .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapPrice span {
+                  display: block; }
+                  .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapPrice span:nth-child(1) {
+                    font-size: 10px;
+                    font-weight: bold; }
+                  .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapPrice span:nth-child(2) {
+                    font-weight: bold;
+                    font-size: 14px; }
+                  .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapPrice span:nth-child(3) {
+                    font-size: 11px; }
+              .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapQuan {
+                width: 100%;
+                display: flex;
+                margin-top: 5px; }
+                .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapQuan span {
+                  display: block;
+                  font-size: 11px; }
+                  .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapQuan span:nth-child(1) {
+                    width: 80px;
+                    height: 20px;
+                    background: #e3493d;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 20px; }
+                  .cheapBox .cheapList .proList .cheapItem .cheapItInfo .cheapText p.cheapQuan span:nth-child(2) {
+                    color: #e3493d;
+                    line-height: 20px; }
+        .cheapBox .cheapList .proList .cheapItem .cheapProduct {
+          width: 100%;
+          background: #f8f8f8;
+          height: 40px;
+          font-size: 12px;
+          color: #aaaaaa;
+          margin-top: 12px;
+          display: -webkit-box;
+          overflow: hidden;
+          white-space: normal !important;
+          text-overflow: ellipsis;
+          word-wrap: break-word;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }

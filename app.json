@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/nine/nine",
+    "pages/cheap/cheap",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e3493d",
+    "navigationBarTitleText": "一折特卖",
+    "navigationBarTextStyle":"#fff"
+  },
+   "tabBar": {
+    "selectedColor":"#e3493d",
+    "backgroundColor":"#eee",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/homeing.png"
+    },{
+      "pagePath": "pages/nine/nine",
+      "text": "9.9包邮",
+      "iconPath": "images/nine.png",
+      "selectedIconPath": "images/nineing.png"
+    },{
+      "pagePath": "pages/cheap/cheap",
+      "text": "聚优惠",
+      "iconPath": "images/cheap.png",
+      "selectedIconPath": "images/cheaping.png"
+    },{
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/cart.png",
+      "selectedIconPath": "images/carting.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/usering.png"
+    }]
+  }
+}

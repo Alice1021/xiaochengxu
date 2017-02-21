@@ -1,0 +1,96 @@
+.homeBox {
+  width: 100%;
+  height: 100%; }
+  .homeBox .proList {
+    width: 100%; }
+    .homeBox .proList .homeList {
+      width: 100%;
+      height: 105px; }
+      .homeBox .proList .homeList image {
+        width: 100%;
+        height: 100%; }
+    .homeBox .proList .kind {
+      width: 100%;
+      height: 110px;
+      background: #fff;
+      display: flex;
+      flex-flow: wrap; }
+      .homeBox .proList .kind .kindList {
+        height: 40px;
+        width: 70px;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 10px; }
+        .homeBox .proList .kind .kindList .pic {
+          width: 30px;
+          height: 30px;
+          background: #fe525d;
+          border-radius: 5px; }
+          .homeBox .proList .kind .kindList .pic image {
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            margin-top: 5px; }
+        .homeBox .proList .kind .kindList .text {
+          font-size: 14px;
+          margin-top: 5px;
+          margin-left: 5px;
+          color: #666666; }
+    .homeBox .proList .findList {
+      width: 100%;
+      display: flex;
+      flex-flow: wrap;
+      background: #eceaeb; }
+      .homeBox .proList .findList .findItem {
+        width: 47%;
+        height: 225px;
+        margin-top: 7px;
+        margin-left: 7px;
+        background: #fff; }
+        .homeBox .proList .findList .findItem .findImage {
+          display: inline-block;
+          width: 100%;
+          height: 160px; }
+        .homeBox .proList .findList .findItem p {
+          display: block;
+          color: #666666;
+          font-size: 12px;
+          margin-left: 5px;
+          margin-top: 3px; }
+          .homeBox .proList .findList .findItem p.findName {
+            display: -webkit-box;
+            overflow: hidden;
+            white-space: normal !important;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical; }
+          .homeBox .proList .findList .findItem p.findPrice {
+            width: 95%;
+            margin-left: 2.5%;
+            height: 20px;
+            border-bottom: 1px solid #aaaaaa;
+            color: #ff6c00;
+            font-weight: bold; }
+          .homeBox .proList .findList .findItem p.findSport {
+            display: flex; }
+            .homeBox .proList .findList .findItem p.findSport span {
+              display: block; }
+              .homeBox .proList .findList .findItem p.findSport span:nth-child(1) {
+                width: 10px;
+                height: 100%;
+                background: #ff6c00;
+                color: #fff;
+                font-size: 10px; }
+              .homeBox .proList .findList .findItem p.findSport span:nth-child(2) {
+                width: 65px;
+                height: 100%;
+                background: #ff6c00;
+                margin-left: 5px;
+                color: #fff;
+                font-size: 10px; }
+              .homeBox .proList .findList .findItem p.findSport span:nth-child(3) {
+                color: #ff6c00;
+                font-size: 10px;
+                margin-left: 5px; }

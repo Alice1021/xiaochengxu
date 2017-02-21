@@ -1,0 +1,53 @@
+.registerBox {
+  width: 100%;
+  height: 100%; }
+  .registerBox .wode {
+    width: 95%;
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 2.5%;
+    display: flex;
+    background: #fff;
+    margin-top: 20px; }
+    .registerBox .wode .img {
+      width: 30px;
+      height: 30px;
+      margin-top: 10px; }
+      .registerBox .wode .img image {
+        width: 100%;
+        height: 100%; }
+    .registerBox .wode .woText {
+      margin-left: 10px;
+      font-size: 14px;
+      color: #666666;
+      margin-top: 20px; }
+  .registerBox .xiaoxi {
+    width: 95%;
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 2.5%;
+    background: #fff;
+    display: flex; }
+    .registerBox .xiaoxi .img {
+      width: 30px;
+      height: 30px;
+      margin-top: 10px; }
+      .registerBox .xiaoxi .img image {
+        width: 100%;
+        height: 100%; }
+    .registerBox .xiaoxi .woText {
+      margin-left: 10px;
+      font-size: 14px;
+      color: #666666;
+      margin-top: 20px; }
+  .registerBox .btn {
+    width: 95%;
+    margin-top: 30px; }
+  .registerBox .login {
+    width: 50px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #e3493d; }

@@ -1,0 +1,202 @@
+.detailBox{
+    width:100%;
+    height:100%;
+    .detailMain{
+        width:100%;
+        .detailInfo{
+            width:100%;
+            height:400px;
+            background:#fff;
+            margin-bottom:10px;
+            .detailImg{
+                width:100%;
+                height:300px;
+                display:block;
+            }
+            p{
+                display:block;
+                margin-left:5px;
+                &.detailName{
+                    margin-top:10px;
+                    width:100%;
+                    height:30px;
+                    font-size:12px;
+                    color:#666666;
+                }
+                &.detailPrice{
+                    color:#ff6c00;
+                }
+                &.detailPlace{
+                    margin-top:5px;
+                    color:#666;
+                    font-size:12px;
+                    display:flex;
+                    span{
+                        display:block;
+                        &:nth-child(1){
+                            margin-right:250px;
+                        }
+                    }
+                }
+            }
+        }
+        .guss{
+            width:100%;
+            height:40px;
+            background:#ff6c00;
+            color:#fff;
+            text-align: center;
+            line-height: 40px;
+            font-size:16px;
+            font-weight: bold;
+        }
+        .findList{
+            width:100%;
+            display: flex;
+            flex-flow: wrap;
+            background:#eceaeb;
+            .findItem{
+                width:47%;
+                height:225px;
+                margin-top:7px;
+                margin-left:7px;
+                background:#fff;
+                .findImage{
+                    display: inline-block;
+                    width:100%;
+                    height:160px;
+                }
+                p{
+                    display:block;
+                    color:#666666;
+                    font-size:12px;
+                    margin-left: 5px;
+                    margin-top:3px;
+                    &.findName{
+                        display: -webkit-box;
+                        overflow: hidden;
+                        white-space: normal !important;
+                        text-overflow: ellipsis;
+                        word-wrap: break-word;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                    }
+                    &.findPrice{
+                        width:95%;
+                        margin-left:2.5%;
+                        height:20px;
+                        border-bottom:1px solid #aaaaaa;
+                        color:#ff6c00;
+                        font-weight: bold;  
+                    }
+                    &.findSport{
+                        display:flex;
+                        span{
+                            display:block;
+                            &:nth-child(1){
+                                width:10px;
+                                height:100%;
+                                background:#ff6c00;
+                                color:#fff;
+                                font-size:10px;
+                            }
+                            &:nth-child(2){
+                                width:65px;
+                                height:100%;
+                                background:#ff6c00;
+                                margin-left:5px;
+                                color:#fff;
+                                font-size:10px;
+                            }
+                            &:nth-child(3){
+                                color:#ff6c00;
+                                font-size:10px;
+                                margin-left:5px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+    .fixed{
+        position:fixed;
+        width:100%;
+        height:50px;
+        background:#fff;
+        left:0;
+        bottom:0;
+        border-top:1px solid #bfbfbf;
+        display:flex;
+        .ke{
+            width:50px;
+            height:100%;
+            border-right:1px solid #bfbfbf;
+            .text1{
+                display:block;
+                width:24px;
+                height:20px;
+                margin-left:13px;
+                margin-top:5px;
+            }
+            .text2{
+                color:#666;
+                font-size: 12px;
+                margin-left: 13px;
+            }
+        }
+        .jin{
+            width:50px;
+            height:100%;
+            border-right:1px solid #bfbfbf;
+            .text1{
+                display:block;
+                width:24px;
+                height:20px;
+                margin-left:13px;
+                margin-top:5px;
+            }
+            .text2{
+                color:#666;
+                font-size: 12px;
+                margin-left: 13px;
+            }
+        }
+        .shou{
+            width:50px;
+            height:100%;
+            border-right:1px solid #bfbfbf;
+            .text1{
+                display:block;
+                width:24px;
+                height:20px;
+                margin-left:13px;
+                margin-top:5px;
+            }
+            .text2{
+                color:#666;
+                font-size: 12px;
+                margin-left: 13px;
+            }
+        }
+        .addin{
+            width:120px;
+            height:100%;
+            background:#fed325;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+        }
+        .buy{
+            width:120px;
+            height:100%;
+            background:#e3493d;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+        }
+    }
+}
+
